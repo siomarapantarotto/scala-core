@@ -10,7 +10,6 @@
 - [Plugin with IntelliJ Idea](#plugin-with-intellij-idea)
 - [First Program](#first-program)
 - [Identifiers](#identifiers)
-  - [Categories](#categories)
 - [Keywords](#keywords)
 - [Datatypes](#datatypes)
 - [Basic Literals](#basic-literals)
@@ -113,6 +112,14 @@ Here are the rules for Scala identifiers:
 <li>Scala follows the camel case convention for naming identifiers, where the first word is in lowercase and subsequent words are in uppercase. For example, myVariableName, myMethodName.</li>
 </ul>
 
+Here are the categories for Scala identifiers:
+<ul>
+<li>Aplhanumeric Identifiers</li>
+<li>Operator Identifiers</li>
+<li>Mixed Identifiers</li>
+<li>Literal Identifiers</li>
+</ul>
+
 // Valid Scala identifiers
 <br>val myVariable = 3
 <br>def myFunction(x: Int) = x * x
@@ -126,14 +133,6 @@ Here are the rules for Scala identifiers:
 <br>def my-function(x: Int) = x * 2 // Cannot use hyphen
 <br>class new = MyClass // Cannot use the 'new' reserved keyword
 <br>val #hello = "Hello" // Cannot use the '#' special character
-
-## Categories
-<ul>
-<li>Aplhanumeric Identifiers</li>
-<li>Operator Identifiers</li>
-<li>Mixed Identifiers</li>
-<li>Literal Identifiers</li>
-</ul>
  
 # Keywords
 # Datatypes
