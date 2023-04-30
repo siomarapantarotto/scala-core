@@ -112,19 +112,19 @@ Here are the rules for Scala identifiers:
 <li>Scala follows the camel case convention for naming identifiers, where the first word is in lowercase and subsequent words are in uppercase. For example, myVariableName, myMethodName.</li>
 </ul>
 
-// Valid identifiers
-val myVariable = 3
-def myFunction(x: Int) = x * x
-class MyClass
-object MyObject
-package myPackage
-val π = 3.14
+// Valid Scala identifiers
+<br>val myVariable = 3
+<br>def myFunction(x: Int) = x * x
+<br>class MyClass
+<br>object MyObject
+<br>package myPackage
+<br>val π = 3.14
 
-// Invalid identifiers
-val 123variable = 123 // Cannot start with a digit
-def my-function(x: Int) = x * 2 // Cannot use hyphen
-class new = MyClass // Cannot use the 'new' reserved keyword
-val #hello = "Hello" // Cannot use the '#' special character
+// Invalid Scala identifiers
+<br>val 123variable = 123 // Cannot start with a digit
+<br>def my-function(x: Int) = x * 2 // Cannot use hyphen
+<br>class new = MyClass // Cannot use the 'new' reserved keyword
+<br>val #hello = "Hello" // Cannot use the '#' special character
 
 # Keywords
 # Datatypes
