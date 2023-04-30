@@ -94,6 +94,25 @@
 # Plugin with IntelliJ Idea
 # First Program
 # Identifiers
+
+All Scala components require an identifier, which is the name used to identify components such as variables, functions, classes, objects, or packages. 
+
+The identifier is a string of characters that can include letters, digits, and some special characters.
+
+Here are the rules for Scala identifiers:
+
+<ul>
+<li>
+<li>An identifier is a name given to a variable, method, class, object, or package.</li>
+<li>An identifier can contain alphanumeric characters, dollar sign ($) or underscore (_).</li>
+<li>The first character of an identifier must be a letter, underscore, or dollar sign.</li>
+<li>Subsequent characters can be a letter, digit, underscore, or dollar sign.</li>
+<li>Identifiers are case-sensitive, which means that myVar and myvar are two different identifiers.</li>
+<li>Identifiers cannot be a reserved keyword in Scala, such as if, while, class, object, etc.</li>
+<li>Scala allows Unicode characters in identifiers, including letters and digits, but it's recommended to use only ASCII characters for better readability.</li>
+<li>Scala follows the camel case convention for naming identifiers, where the first word is in lowercase and subsequent words are in uppercase. For example, myVariableName, myMethodName.</li>
+</ul>
+
 # Keywords
 # Datatypes
 # Basic Literals
