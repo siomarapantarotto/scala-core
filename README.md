@@ -102,7 +102,6 @@ The identifier is a string of characters that can include letters, digits, and s
 Here are the rules for Scala identifiers:
 
 <ul>
-<li>
 <li>An identifier is a name given to a variable, method, class, object, or package.</li>
 <li>An identifier can contain alphanumeric characters, dollar sign ($) or underscore (_).</li>
 <li>The first character of an identifier must be a letter, underscore, or dollar sign.</li>
@@ -112,6 +111,20 @@ Here are the rules for Scala identifiers:
 <li>Scala allows Unicode characters in identifiers, including letters and digits, but it's recommended to use only ASCII characters for better readability.</li>
 <li>Scala follows the camel case convention for naming identifiers, where the first word is in lowercase and subsequent words are in uppercase. For example, myVariableName, myMethodName.</li>
 </ul>
+
+// Valid identifiers
+val myVariable = 3
+def myFunction(x: Int) = x * x
+class MyClass
+object MyObject
+package myPackage
+val π = 3.14
+
+// Invalid identifiers
+val 123variable = 123 // Cannot start with a digit
+def my-function(x: Int) = x * 2 // Cannot use hyphen
+class new = MyClass // Cannot use the 'new' reserved keyword
+val #hello = "Hello" // Cannot use the '#' special character
 
 # Keywords
 # Datatypes
