@@ -10,6 +10,7 @@
 - [Plugin with IntelliJ Idea](#plugin-with-intellij-idea)
 - [First Program](#first-program)
 - [Identifiers](#identifiers)
+  - [Categories](#categories)
 - [Keywords](#keywords)
 - [Datatypes](#datatypes)
 - [Basic Literals](#basic-literals)
@@ -126,6 +127,14 @@ Here are the rules for Scala identifiers:
 <br>class new = MyClass // Cannot use the 'new' reserved keyword
 <br>val #hello = "Hello" // Cannot use the '#' special character
 
+## Categories
+<ul>
+<li>Aplhanumeric Identifiers</li>
+<li>Operator Identifiers</li>
+<li>Mixed Identifiers</li>
+<li>Literal Identifiers</li>
+</ul>
+ 
 # Keywords
 # Datatypes
 # Basic Literals
