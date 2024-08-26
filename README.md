@@ -1,6 +1,9 @@
+# UNDER CONSTRUCTION!
+
 # Scala reminders collection!
 
 # Table of contents
+- [UNDER CONSTRUCTION!](#under-construction)
 - [Scala reminders collection!](#scala-reminders-collection)
 - [Table of contents](#table-of-contents)
 - [Introduction to Scala Basics](#introduction-to-scala-basics)
